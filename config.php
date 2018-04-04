@@ -1,6 +1,6 @@
 <?php
 $config = new stdClass();
-$config->bucket_slug = getenv('COSMIC_BUCKET'); // bucket slug
+$config->bucket_slug = "astral"; // bucket slug
 $config->read_key = ""; // leave empty if not required
 $config->write_key = ""; // leave empty if not required
 
